@@ -1,0 +1,75 @@
+.bend
+{
+	width: 1000px;
+	height: 290px;
+	margin: auto;
+	text-align: center;
+}
+.bend p
+{
+	font-size: 14px;
+	font-family: "微软雅黑";
+	
+	
+}
+.bend p:nth-of-type(1)
+{
+ margin-top: 55px;
+}
+.bend p:nth-of-type(2)
+{
+	color: #E9766F;
+	 margin-top: 10px;
+}
+.bend input
+{
+	width: 355px;
+	height: 40px;
+	background: #5D1988;
+	border: none;
+	color: white;
+	border-radius:4%;
+	border: 1px solid #BCBCBC;
+}
+.bend input:nth-of-type(1)
+{
+	margin-top: 15px;	
+}
+
+.bend>p:nth-of-type(3)
+{
+	margin-top: 15px;
+}
+.bend>div:nth-of-type(1)
+{
+	width: 120px;
+	height: 30px;
+	background: url(../img/ya.gif);
+	margin: auto;
+}
+.bend>input:nth-of-type(2)
+{
+	margin-top: 15px;
+}
+.bend div:nth-of-type(2)
+{
+	width: 355px;
+	height: 35px;
+	background:#FE6546 ;
+	border-top:1px solid #C37760 ;
+	border-bottom:1px solid #C37760 ;
+	font-size: 17px;
+	color: white;
+	line-height: 35px;
+	text-align: center;
+	margin:30px auto;
+}
+.bend div:nth-of-type(2):hover
+{
+	cursor: pointer;
+}
+
+.bott_bo
+{
+	margin-top: 55px;
+}

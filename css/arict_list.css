@@ -1,0 +1,148 @@
+.bend
+{
+	width: 1000px;	
+	height: 2070px;
+	margin: auto;
+	position: relative;
+	margin-top: 35px;
+}
+/*640 160*/
+.bend ul:nth-of-type(1) li
+{
+	font-size: 15px;
+	border: 1px solid #EEEEF0;
+	width: 640px;
+	height: 160px;
+	position: relative;
+	line-height: 18px;
+}
+.bend ul:nth-of-type(1) li>p
+{
+	font-size: 16px;
+	font-family: "黑体";
+	font-weight: 500;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+.bend ul:nth-of-type(1) li>div
+{
+	width: 595px;
+	height: 110;
+	margin-top: 7px;
+	margin-left:20px;
+}
+.bend ul:nth-of-type(1) li>div>div
+{
+	width: 110px;
+	height: 110px;
+	float: left;
+	display: inline-block;
+	background: url(../img/san.png) center;
+	background-size:250% ;
+
+}
+.bend ul:nth-of-type(1) li
+{
+	margin-top: 40px;
+	margin-left: -39px;	
+}
+.bend ul:nth-of-type(1) li:nth-of-type(1)
+{
+	margin-top: 0;
+	
+}
+.bend ul:nth-of-type(1) li:nth-of-type(2)>div>div
+{
+	background:url(../img/huawei.png);
+	background-size:100% 100%;
+}
+.bend ul:nth-of-type(1) li:nth-of-type(3)>div>div
+{
+	background:url(../img/huaiw2.jpg);
+	background-size:100% 100%;
+}
+.bend ul:nth-of-type(1) li:nth-of-type(4)>div>div
+{
+	background:url(../img/zhi.jpg);
+	background-size:100% 100%;
+}
+.bend ul:nth-of-type(1) li:nth-of-type(5)>div>div
+{
+	background:url(../img/bu.png);
+	background-size:100% 100%;
+}
+.bend ul:nth-of-type(1) li:nth-of-type(6)>div>div
+{
+	background:url(../img/index-ceter.png);
+	background-size:100% 100%;
+}
+.bend ul:nth-of-type(1) li:nth-of-type(7)>div>div
+{
+	background:url(../img/vivo.png);
+	background-size:100% 100%;
+}
+.bend ul:nth-of-type(1) li:nth-of-type(8)>div>div
+{
+	background:url(../img/noki.png);
+	background-size:100% 100%;
+}
+.bend ul:nth-of-type(1) li:nth-of-type(9)>div>div
+{
+	background:url(../img/iphone5.jpg);
+	background-size:100% 100%;
+}
+.bend ul:nth-of-type(1) li:nth-of-type(10)>div>div
+{
+	background:url(../img/noki2.jpg);
+	background-size:100% 100%;
+}
+.bend>ul:nth-of-type(2)
+{
+	width: 450px;
+	position: absolute;
+	bottom: 0;
+	left: -5px;
+	
+}
+.bend>ul:nth-of-type(2) li
+{
+	width: 32px;
+	height: 32px;
+	border:1px solid #DDDDDD;
+	text-align: center;
+	font-family: "黑体";
+	line-height: 30px;
+	float: left;
+	color: #E5704D;
+}
+.bend>ul:nth-of-type(2) li:nth-of-type(1)
+{
+	margin-left: -34px;
+}
+.bend>div
+{
+	position: absolute;
+	width: 300px;
+	height: 150px;
+	background: url(../img/sliderright1.png);
+	right: 0;
+	top: 95px;
+}
+.bend>div:nth-of-type(2)
+{
+	width: 300px;
+	height: 150px;
+	background: url(../img/sliderright2.png);
+	top: 266px;
+}
+.bend>ul:nth-of-type(2) li:hover
+{
+	background: #FE6448;
+	color: white;
+	cursor: pointer;
+}
+
+.bott_bo
+{
+	margin-top: 65px;
+}

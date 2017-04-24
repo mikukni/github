@@ -1,0 +1,76 @@
+.top_div>ul li:nth-child(7)
+{
+	border-bottom:1px double #FE6546;
+}
+.bend
+{
+	width: 1000px;
+	height: 460px;
+	margin: 25px auto;
+}
+
+.bend_left
+{
+	width: 285px;
+	height: 210px;
+	background: white;
+	position: relative;
+	float: left;
+}
+.bend_left ul
+{
+	display: block;
+	position: absolute;
+	top: -5px;
+	left: 50%;
+	margin-left: -70px;
+}
+.bend_left ul li
+{
+	
+	font-size: 15px;
+	font-family: "微软雅黑";
+	font-weight: 750;
+	margin-top: 25px;
+}
+.bend_left ul li:hover
+{
+	font-size:20px ;
+	color: #E56F72;
+	margin-left: -8px;
+	cursor: pointer;
+}
+.bend_right
+{
+	width: 696px;
+	height: 459px;
+	background: white;
+	float: right;
+}
+.bend_right p:nth-of-type(1)
+{
+	display: inline-block;
+	font-size: 13px;
+	font-weight: bold;
+	margin-top: 25px;
+	margin-left: 48px;
+}
+.bend_right div
+{
+	width: 611px;
+	height: 251px;
+	background: url(../img/aboutlogo.jpg);
+	margin-top: 15px;
+	margin-left: 49px;
+}
+.bend_right p:nth-of-type(2)
+{
+	display: inline-block;
+	font-size: 13px;
+	font-weight: bold;
+	width: 550px;
+	height: 100px;
+	line-height: 25px;
+	margin-top: 35px;
+	margin-left: 47px;
+}

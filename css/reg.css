@@ -1,0 +1,280 @@
+*
+{
+	margin: 0;
+}
+/*上100*/
+.top
+{
+	width: 100%;
+	height: 100px;
+	position: relative;
+}
+.top img
+{
+ 	position: absolute;
+ 	left: 50%;
+ 	margin-left: -465px;
+ 	top: 20px;
+}
+.top>p
+{
+	position: absolute;
+	font-size: 16px;
+	letter-spacing: 3px;
+	font-family: "微软雅黑";
+	left: 50%;
+	top: 70px;
+	margin-left: -465px;
+}
+.top>ul
+{
+	position: absolute;
+	left: 50%;
+	top: 20px;
+	margin-left: -70px;
+}
+.top>ul>li div
+{
+	width: 50px;
+	height: 49px;
+	background: url(../img/ico-lest.png);
+	float: left;
+}
+.top  ul li:nth-child(1) div
+{
+	background-position:0px 657px;
+}
+.top ul li:nth-child(2) div
+{
+	background-position:0px 1156px;
+}
+.top ul li:nth-child(3) div
+{
+	background-position:0px 1107px;
+}
+.top ul li
+{
+	float: left;
+	width: 180px;
+	line-height: 49px;
+}
+.top ul li span
+{
+	margin-left: 5px;
+	font-weight: bold;
+}
+
+
+
+
+/*中*/
+ul
+{
+	list-style: none;
+}
+.bend
+{
+	width: 100%;
+	min-width: 1300px;
+	height: 445px;
+	background: url(../img/login_bg.jpg) center;
+	padding-top: 55px;
+}
+.bend_cen
+{
+	margin:auto;
+	width: 810px;
+	height: 390px;
+	background: rgba(250,250,250,0.9);
+	position: relative;
+}
+/*中间*/
+.bend_cen>div:nth-of-type(1)
+{
+	width: 280px;
+	height: 310px;
+	border-right:1px solid #BDBBBC ;
+	padding-top:30px;
+	padding-left: 30px;
+	float: left;
+	display: inline-block;
+	margin:25px 30px;
+}
+.bend_cen>div:nth-of-type(1)>div
+{
+	width: 216px;
+	height: 216px;
+	background: url(../img/saomiao.png);
+}
+.bend_cen>div:nth-of-type(1) p
+{
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 3px;
+	margin-left: 55px;
+	font-family: "微软雅黑";
+}
+.bend_cen>div:nth-of-type(1) p:nth-of-type(1)
+{
+	margin-top: 10px;
+}
+.bend_cen>div:nth-of-type(1) p:nth-of-type(2)
+{
+	font-size: 13px;
+	font-weight: 100;
+	letter-spacing: 1px;
+}
+.bend_cen>ul
+{
+	float: right;
+	margin-top: 30px;
+	margin-right: 209px;
+}
+.bend_cen>ul li
+{
+	width: 50px;
+	height: 20px;
+	float:left;	
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+}
+.bend_cen>ul li:nth-of-type(2)
+{
+	border-left: 1px solid black;
+}
+/*注册*/
+.bend_cen>div:nth-of-type(2)
+{
+	width: 368px;
+	height: 320px;
+	position: absolute;
+	right: 70px;
+	bottom: 22px;
+}
+.bend_cen>div:nth-of-type(2) input
+{
+	width: 365px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 14px;
+	float: left;
+	color: #A9A9A9;
+	margin-top: 25px;
+	border: 1px solid #BCBCBC;
+	font-family: "微软雅黑";
+}
+.bend_cen>div:nth-of-type(2) input:nth-of-type(2)
+{
+	width: 205px;
+}
+.bend_cen>div:nth-of-type(2) input:nth-of-type(3)
+{
+	width: 205px;
+}
+.bend_cen>div:nth-of-type(2) div:nth-of-type(1)
+{
+	width: 120px;
+	height: 30px;
+	float: right;
+	background: url(../img/ya.gif);
+	margin-top: 30px;
+}
+.bend_cen>div:nth-of-type(2) div:nth-of-type(2)
+{
+	width: 100px;
+	height: 35px;
+	float: right;
+	border-top:1px solid #C37760 ;
+	border-bottom:1px solid #C37760 ;
+	margin-top: 25px;
+	background: #FB6239;
+	font-size: 13px;
+	color: white;
+	line-height: 35px;
+	text-align: center;
+}
+.bend_cen>div:nth-of-type(2) div:nth-of-type(3)
+{
+	width: 368px;
+	height: 35px;
+	background:#FB6239 ;
+	border-top:1px solid #C37760 ;
+	border-bottom:1px solid #C37760 ;
+	margin-top: 25px;
+	font-size: 17px;
+	color: white;
+	line-height: 35px;
+	text-align: center;
+	float: left;
+	
+}
+/*登录*/
+.bend_cen>div:nth-of-type(3)
+{
+	width: 368px;
+	height: 191px;
+	position: absolute;
+	bottom: 148px;
+	right: 70px;
+	display: none;
+}
+.bend_cen>div:nth-of-type(3) input
+{
+	width: 365px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 14px;
+	float: left;
+	color: #A9A9A9;
+	margin-top: 25px;
+	border: 1px solid #BCBCBC;
+	font-family: "微软雅黑";
+}
+.bend_cen>div:nth-of-type(3) div
+{
+	width: 368px;
+	height: 35px;
+	background:#FB6239 ;
+	border-top:1px solid #C37760 ;
+	border-bottom:1px solid #C37760 ;
+	margin-top: 25px;
+	font-size: 17px;
+	color: white;
+	line-height: 35px;
+	text-align: center;
+	float: left;
+	
+}
+.bend_cen ul li:hover
+{
+	color: #E66D5C;
+	cursor: pointer;
+}
+.bend_cen div:nth-of-type(2) div:hover
+{
+	cursor: pointer;
+}
+
+
+
+/*底部*/
+.bott_bo 
+{
+	margin-top: 35px;
+}
+.bott_bo div
+{
+	width: 100%;
+	height: 90px;
+	background: #333333;
+	min-width: 1300px;
+}
+.bott_bo p
+{
+	text-align: center;
+	font-family: simhei;
+	font-size: 13px;
+	color: white;
+	line-height: 25px;
+}

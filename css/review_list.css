@@ -1,0 +1,190 @@
+/*中部顶部*/
+.bend_top
+{
+	width: 100%;
+	min-width: 1300px;
+	height: 400px;
+	background: url(../img/review_banner.png) center;
+}
+
+/*中间*/
+.bend
+{
+	width: 1300px;
+	height: 1865px;
+	margin: auto;
+	position: relative;
+}
+
+/*UL*/
+.bend>ul:nth-of-type(1) li
+{
+	width: 920px;
+	height: 140px;
+	background: white;
+	border: 2px solid #EEEEF0;
+	position: relative;
+	margin-top: 30px;
+	margin-left: 150px;
+}
+.bend>ul:nth-of-type(1) li>div:nth-of-type(1)
+{
+	width: 95px;
+	height: 90px;
+	text-align: center;
+	margin:25px 40px;
+	display: inline-block;
+	
+}
+.bend>ul:nth-of-type(1) li>div:nth-of-type(1) div
+{
+	width: 60px;
+	height: 60px;
+	margin-left: 17px;
+	background: url(../img/homeyh.png);
+	background-size:100% 100%;
+	
+}
+.bend>ul:nth-of-type(1) li>div:nth-of-type(1) p
+{
+	margin-top: 5px;
+	font-size: 13px;
+}
+
+.bend>ul:nth-of-type(1) li>div:nth-of-type(2) 
+{
+	display: inline-block;
+	width: 400px;
+	height: auto;
+	font-size: 14px;
+	line-height: 20px;
+	position: absolute;
+	top: 20px;
+	left: 225px;
+	font-family: "微软雅黑";
+}
+.bend>ul:nth-of-type(1) li>div:nth-of-type(2) p
+{
+	margin-top: 10px;
+	font-family: "微软雅黑";
+}
+.bend>ul:nth-of-type(1) li>div:nth-of-type(3)
+{
+	width: 147px;
+	height: auto;
+	float: right;
+	font-size: 14px;
+	line-height: 20px;
+	margin-top: 35px;
+	margin-right: 50px;
+}
+
+/*ul二*/
+.bend>ul:nth-of-type(2) li
+{
+	width: 32px;
+	height: 32px;
+	border:1px solid #DDDDDD;
+	text-align: center;
+	font-family: "黑体";
+	line-height: 30px;
+	float: left;
+	color: #E5704D;
+}
+.bend>ul:nth-of-type(2)
+{
+	position: absolute;
+	bottom: 120px;
+    left: 150px;
+}
+.bend>ul:nth-of-type(2) li:hover
+{
+	background: #FE6448;
+	color: white;
+	cursor: pointer;
+}
+
+/*右边*/
+.bend_right
+{
+	width: 110px;
+	height: 210px;
+	background: #FE9174;
+	border-radius:5% ;
+	position: relative;
+	float: right;
+	
+}
+.bend_right span div
+{
+	display: inline-block;
+}
+.bend_right span div
+{
+	width: 37px;
+	height: 30px;
+	background: url(../img/ico-lest.png);
+	background-position: 2px 1245px;
+	float: left;
+	margin-top: 5px;
+}
+.bend_right span p
+{
+	display: inline-block;
+	margin-top: 12px;
+	font-size:13px ;
+	color: white;
+}
+.bend_right span 
+{
+	position: absolute;
+	left: 50%;
+	margin-left: -35px;
+	margin-top: 10px;
+}
+.bend_right span:nth-of-type(2)
+{
+	margin-top: 60px;
+	margin-left: -30px;
+}
+.bend_right span:nth-of-type(2) div
+{
+	width: 30px;
+	height: 25px;
+	background-position:0 1566px;
+}
+.bend_right>div
+{
+	width: 102px;
+	height: 121px;
+	position: absolute;
+	top: 100px;
+	text-align: center;
+	left: 10px;
+	color: white;
+	font-size:13px ;
+}
+.bend_right>div p
+{
+	margin-left: -10px;
+	color: white;
+	font-size:13px ;
+}
+.bend_right>div>div
+{
+	width: 90px;
+	height: 90px;
+	background: white;
+	border-radius:5% ;
+	position: relative;
+}
+.bend_right>div>div>div
+{
+	width: 80px;
+	height: 80px;
+	background: url(../img/saomiao.png);
+	background-size:100% ;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
